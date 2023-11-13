@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just MORSE it</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- headline -->
+      <article>
+        <h1>Just MORSE it!</h1>
+        <h2>your online morse encrypter</h2>
+      </article>
+      <!-- input section -->
+      <section class="input__section">
+        <form onsubmit="return false">
+          <input
+            type="text"
+            name="inputField"
+            id="inputField"
+            placeholder="Enter your text here"
+          />
+          <input type="submit" value="encrypt" onclick="encrypt()" />
+        </form>
+      </section>
+
+      <!-- output section -->
+      <section class="output__section">
+        <h2>morse code:</h2>
+        <p class="output__style" id="outputField"></p>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

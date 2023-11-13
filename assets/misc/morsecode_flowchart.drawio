@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-11-13T15:44:41.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7ygmuEXqkFh5Jx1arLaN" version="22.1.0" type="device">
+  <diagram name="Seite-1" id="3UbDn3c3I5oZMdbhwJEo">
+    <mxGraphModel dx="2098" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-1" target="skXN9l9bOSE_CVT30MQj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Start&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="442" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-2" target="skXN9l9bOSE_CVT30MQj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;zu verschlüsselnden&lt;br&gt;Text eingeben&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="330" y="442" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-4" target="skXN9l9bOSE_CVT30MQj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&quot;encrypt&quot; Button klicken&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="648.5" y="437" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="skXN9l9bOSE_CVT30MQj-6" target="skXN9l9bOSE_CVT30MQj-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;verschlüsselter Text&lt;br&gt;wird ausgegeben&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="1345" y="432" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-10" target="skXN9l9bOSE_CVT30MQj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;vergleiche jedes neue Array mit dem Array &quot;morseAlphabet&quot;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;rounded=1;spacingLeft=2;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="980" y="747" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-12" target="skXN9l9bOSE_CVT30MQj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;wenn das neue Array mit einem value vom key &quot;letter&quot; übereinstimmt, dann gib den zugehörigen &quot;morseCode&quot; wieder&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;rounded=1;spacingLeft=2;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="727" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-15" target="skXN9l9bOSE_CVT30MQj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;gib die neuen Zeichen&lt;br&gt;im output-Feld aus&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;rounded=1;spacingLeft=2;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="595" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="980" as="sourcePoint" />
+            <mxPoint x="610" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="980" as="sourcePoint" />
+            <mxPoint x="1620" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Java Script function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="980" y="910" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="981" as="sourcePoint" />
+            <mxPoint x="1620" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="560" as="sourcePoint" />
+            <mxPoint x="610" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Ende&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="432" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-29" target="skXN9l9bOSE_CVT30MQj-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-29" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Eingabe-Text wird in Großbuchstaben umgewandelt&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;rounded=1;spacingLeft=2;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="637" y="590" width="273" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="skXN9l9bOSE_CVT30MQj-30" target="skXN9l9bOSE_CVT30MQj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skXN9l9bOSE_CVT30MQj-30" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Jeder Buchstabe des Eingabe-Textes wird gesplittet und in ein neues Array gespeichert&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;rounded=1;spacingLeft=2;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="638.5" y="747" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6GAlEqEjutkS_kpB-7Q-12" value="Morsecode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Helvetica;fontColor=default;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="930" y="310" width="210" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

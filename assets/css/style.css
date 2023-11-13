@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --typecolor: #181D31;
+    --primary: #678983;
+    --primary-dark: #385651;
+    --primary-light: #a1bab5;
+    --beige: #E6DDC4;
+    --light-beige: #F0E9D2;
+}
+
+body {
+    background-color: var(--light-beige);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--typecolor);
+    text-align: center;
+}
+
+/* *********************
+        headlines
+*********************** */
+article h1 {
+    margin-top: 5%;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* *********************
+    input section
+*********************** */
+.input__section {
+    margin-top: 10vh;
+}
+
+/* *********************
+        Form
+*********************** */
+.input__section form {
+    margin: 0 auto;
+    width: 70vw;
+    display: flex;
+    gap: 20px;
+}
+
+.input__section form input[type=text] {
+    padding: 5%;
+    flex-grow: 2;
+    height: 150px;
+    background-color: var(--typecolor);
+    color: var(--light-beige);
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.input__section form input[type=text]:focus {
+    outline: none;
+    
+}
+
+.input__section form input[type=submit] {
+    padding-inline: 30px;
+    height: 150px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary);
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 600;
+    color: var(--typecolor);
+    letter-spacing: 3px;
+
+    box-shadow: inset 0px 3px 3px 0px var(--primary-light), inset 0px 0px 4px 2px var(--primary-dark);
+   
+}
+
+.input__section form input[type=submit]:hover {
+    background: linear-gradient(to bottom, var(--primary-light) 0%, var(--primary) 70%)
+}
+
+/* *********************
+    output section
+*********************** */
+.output__section {
+    margin-top: 60px;
+}
+
+.output__style {
+    margin: 20px auto 5% auto;
+    padding: 5%;
+    width: 70vw;
+    border: var(--typecolor) 3px dashed;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 2rem;
+}
