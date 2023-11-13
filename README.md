@@ -16,11 +16,11 @@ This project was created as part of a coding bootcamp (fullstack development) at
 
 ## Screenshots 📸
 
-![Morse code encrypter](./../assets/misc/morsecode_screenshot.png)
+![Morse code encrypter](./assets/misc/morsecode_screenshot.png)
 
 ## Flow Chart 📐✏️
 
-![Flow Chart](./../assets/misc/morsecode_flowchart.png)
+![Flow Chart](./assets/misc/morsecode_flowchart.png)
 
 ## Allowed Characters 🔤
 
